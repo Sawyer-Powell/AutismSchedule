@@ -34,6 +34,16 @@
                                                     <action selector="btn_Strawberry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="im0-qf-9gx"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vad-sa-FnR">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Computer" image=" Computer.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Computer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7NR-yr-hja"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUc-WU-Po1">
                                                 <rect key="frame" x="689" y="908" width="335" height="219"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -102,16 +112,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="btn_ShoesOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJ1-54-0sm"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xY2-B0-Zcv">
-                                                <rect key="frame" x="0.0" y="908" width="335" height="219"/>
-                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="Puzzles" image="Puzzles.JPG">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="btn_Puzzles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KiM-tD-HiB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go3-em-6NH">
@@ -214,14 +214,14 @@
                                                     <action selector="btn_Basketball:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PBa-ZL-fb7"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vad-sa-FnR">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="219"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syU-yA-A70">
+                                                <rect key="frame" x="0.0" y="908" width="335" height="219"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="Computer" image=" Computer.JPG">
+                                                <state key="normal" title="Shoes On" image="Puzzles.JPG">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="btn_Computer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7NR-yr-hja"/>
+                                                    <action selector="btn_Puzzles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OuV-hz-XWW"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -250,30 +250,33 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="Banana" destination="Hfh-Mn-KTa" id="QZA-n6-2e4"/>
+                        <outlet property="Basketball" destination="FVP-3X-u5d" id="MsP-9Q-8gt"/>
+                        <outlet property="BookRead" destination="huT-RB-P2F" id="Prv-62-ABe"/>
+                        <outlet property="Bread" destination="9tr-iB-4o6" id="wT0-Te-fsM"/>
+                        <outlet property="Brush" destination="xi6-C3-eVu" id="i0o-7d-tN9"/>
+                        <outlet property="Checkers" destination="tRA-og-DuL" id="V6B-pe-TBb"/>
+                        <outlet property="Cleaning" destination="obI-4i-Gqw" id="8g1-dj-Wqe"/>
+                        <outlet property="Computer" destination="vad-sa-FnR" id="HTz-ai-N0w"/>
+                        <outlet property="HandWash" destination="OQW-AZ-Feg" id="iSL-GW-6dU"/>
+                        <outlet property="MainView" destination="tfP-yF-dJW" id="spT-w6-aeN"/>
+                        <outlet property="Math" destination="aJm-Pd-vlS" id="vYb-Wx-r3K"/>
+                        <outlet property="Orange" destination="xis-YR-Q4D" id="AcI-o5-bTj"/>
+                        <outlet property="Plate" destination="Go3-em-6NH" id="hdy-3f-Rb5"/>
+                        <outlet property="Puzzles" destination="syU-yA-A70" id="vKu-wk-NIk"/>
+                        <outlet property="ShoesOn" destination="aC8-s3-z9K" id="h7j-6G-Agx"/>
+                        <outlet property="Strawberry" destination="mUm-g2-43h" id="klL-ED-QXr"/>
+                        <outlet property="Toothbrush" destination="H0E-Ef-Pdw" id="9rn-sW-OfC"/>
+                        <outlet property="WashingDrying" destination="2Wc-jZ-0qo" id="8Li-ee-Ctg"/>
+                        <outlet property="Water" destination="VSa-iN-rD0" id="giY-tg-xer"/>
+                        <outlet property="WiiMote" destination="6cQ-Sb-WWl" id="6p9-dW-j1O"/>
+                        <outlet property="socksOn" destination="uUc-WU-Po1" id="Uii-QD-Hm6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="307" y="452"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="bgc-27-Iyk">
-            <objects>
-                <viewController id="zmj-e2-PYB" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iMR-DA-efT"/>
-                        <viewControllerLayoutGuide type="bottom" id="QHV-qh-2Jc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yFv-nu-BGe">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bau-g4-jel" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1378" y="452"/>
         </scene>
     </scenes>
     <resources>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72F11DB81D32F0C50087DA50 /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F11DB71D32F0C50087DA50 /* Check.png */; };
 		A800206B1D32C75400F58CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A800206A1D32C75400F58CF8 /* AppDelegate.swift */; };
 		A800206D1D32C75400F58CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A800206C1D32C75400F58CF8 /* ViewController.swift */; };
 		A80020701D32C75400F58CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A800206E1D32C75400F58CF8 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72F11DB71D32F0C50087DA50 /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Check.png; path = ../../Downloads/Check.png; sourceTree = "<group>"; };
 		A80020671D32C75400F58CF8 /* AutismSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutismSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A800206A1D32C75400F58CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A800206C1D32C75400F58CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				A8A64BB71D32E1D500C7A4CD /* Bread.JPG */,
 				A8A64BB81D32E1D500C7A4CD /* Brush.JPG */,
 				A8A64BB91D32E1D500C7A4CD /* Checkers.JPG */,
+				72F11DB71D32F0C50087DA50 /* Check.png */,
 				A8A64BBA1D32E1D500C7A4CD /* Cleaning.JPG */,
 				A8A64BBB1D32E1D500C7A4CD /* HandWash.JPG */,
 				A8A64BBC1D32E1D500C7A4CD /* Math.JPG */,
@@ -299,6 +302,7 @@
 				A8A64BC81D32E1D500C7A4CD /* Banana.JPG in Resources */,
 				A8A64BD71D32E1D500C7A4CD /* Toothbrush.JPG in Resources */,
 				A8A64BD31D32E1D500C7A4CD /* Puzzles.JPG in Resources */,
+				72F11DB81D32F0C50087DA50 /* Check.png in Resources */,
 				A8A64BD11D32E1D500C7A4CD /* Orange.JPG in Resources */,
 				A8A64BD51D32E1D500C7A4CD /* Socks On.JPG in Resources */,
 				A8A64BD01D32E1D500C7A4CD /* Math.JPG in Resources */,
