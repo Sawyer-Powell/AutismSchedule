@@ -22,42 +22,170 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfP-yF-dJW">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="2023"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1601"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top of ScrollView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="por-q7-Wa9">
-                                                <rect key="frame" x="446" y="16" width="133" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bottom of ScrollView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzH-an-2oc">
-                                                <rect key="frame" x="432" y="1989" width="160" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUm-g2-43h">
+                                                <rect key="frame" x="0.0" y="1135" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Strawberry" image="Strawberry.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUc-WU-Po1">
+                                                <rect key="frame" x="689" y="908" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Socks On" image="Socks On.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obI-4i-Gqw">
+                                                <rect key="frame" x="345" y="454" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Cleaning" image="Cleaning.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cQ-Sb-WWl">
+                                                <rect key="frame" x="345" y="1362" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="WiiMote" image="WiiMote.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSa-iN-rD0">
+                                                <rect key="frame" x="0.0" y="1362" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Water" image="Water.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Wc-jZ-0qo">
+                                                <rect key="frame" x="689" y="1135" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Washing and Drying" image="Washing and Drying.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0E-Ef-Pdw">
+                                                <rect key="frame" x="345" y="1135" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Toothbrush" image="Toothbrush.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC8-s3-z9K">
+                                                <rect key="frame" x="345" y="908" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Shoes On" image="Shoes On.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xY2-B0-Zcv">
+                                                <rect key="frame" x="0.0" y="908" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Puzzles" image="Puzzles.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go3-em-6NH">
+                                                <rect key="frame" x="689" y="681" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Plate" image="Plate.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xis-YR-Q4D">
+                                                <rect key="frame" x="345" y="681" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Orange" image="Orange.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJm-Pd-vlS">
+                                                <rect key="frame" x="0.0" y="681" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Math" image="Math.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xi6-C3-eVu">
+                                                <rect key="frame" x="689" y="227" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Brush" image="Brush.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-AZ-Feg">
+                                                <rect key="frame" x="689" y="454" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="HandWash.JPG" image="HandWash.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tr-iB-4o6">
+                                                <rect key="frame" x="345" y="227" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Bread" image="Bread.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-og-DuL">
+                                                <rect key="frame" x="0.0" y="454" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Checkers" image="Checkers.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huT-RB-P2F">
+                                                <rect key="frame" x="0.0" y="227" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="BookRead" image="BookRead.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfh-Mn-KTa">
+                                                <rect key="frame" x="345" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Eat Fruit" image="Banana.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVP-3X-u5d">
+                                                <rect key="frame" x="689" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Basketball" image="Basketball.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vad-sa-FnR">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Computer" image=" Computer.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1024" id="KCq-e3-q2E"/>
-                                            <constraint firstAttribute="height" constant="2023" id="aoL-Iz-l9P"/>
+                                            <constraint firstAttribute="height" constant="1601" id="629-Cl-ojC"/>
+                                            <constraint firstAttribute="width" constant="1024" id="UbV-VP-yVV"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="tfP-yF-dJW" secondAttribute="bottom" id="Oo5-k8-Z0c"/>
-                                    <constraint firstItem="tfP-yF-dJW" firstAttribute="top" secondItem="unw-St-Q7c" secondAttribute="top" id="Qbk-C9-qfr"/>
-                                    <constraint firstItem="tfP-yF-dJW" firstAttribute="leading" secondItem="unw-St-Q7c" secondAttribute="leading" id="ZMQ-wN-Q93"/>
-                                    <constraint firstAttribute="trailing" secondItem="tfP-yF-dJW" secondAttribute="trailing" id="l8u-YK-MjI"/>
+                                    <constraint firstItem="tfP-yF-dJW" firstAttribute="top" secondItem="unw-St-Q7c" secondAttribute="top" id="CNG-Ji-ql8"/>
+                                    <constraint firstAttribute="trailing" secondItem="tfP-yF-dJW" secondAttribute="trailing" id="Ib3-au-lQs"/>
+                                    <constraint firstItem="tfP-yF-dJW" firstAttribute="leading" secondItem="unw-St-Q7c" secondAttribute="leading" id="UDf-5Z-R8N"/>
+                                    <constraint firstAttribute="bottom" secondItem="tfP-yF-dJW" secondAttribute="bottom" id="cZi-FM-nm6"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="unw-St-Q7c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="9Oa-gn-3W7"/>
-                            <constraint firstItem="unw-St-Q7c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="Tvn-wF-2et"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unw-St-Q7c" secondAttribute="bottom" id="XEH-pK-1OO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="unw-St-Q7c" secondAttribute="trailing" constant="-20" id="bLT-qk-hs7"/>
+                            <constraint firstItem="unw-St-Q7c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="62i-vy-A01"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unw-St-Q7c" secondAttribute="bottom" id="K1m-WM-abD"/>
+                            <constraint firstItem="unw-St-Q7c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="KFa-gG-5Jf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="unw-St-Q7c" secondAttribute="trailing" constant="-20" id="NBi-AX-iWa"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -65,7 +193,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="429"/>
+            <point key="canvasLocation" x="307" y="452"/>
         </scene>
     </scenes>
+    <resources>
+        <image name=" Computer.JPG" width="640" height="480"/>
+        <image name="Banana.JPG" width="640" height="480"/>
+        <image name="Basketball.JPG" width="640" height="480"/>
+        <image name="BookRead.JPG" width="640" height="480"/>
+        <image name="Bread.JPG" width="640" height="480"/>
+        <image name="Brush.JPG" width="640" height="480"/>
+        <image name="Checkers.JPG" width="320" height="240"/>
+        <image name="Cleaning.JPG" width="320" height="240"/>
+        <image name="HandWash.JPG" width="640" height="480"/>
+        <image name="Math.JPG" width="320" height="240"/>
+        <image name="Orange.JPG" width="640" height="480"/>
+        <image name="Plate.JPG" width="640" height="480"/>
+        <image name="Puzzles.JPG" width="640" height="480"/>
+        <image name="Shoes On.JPG" width="640" height="480"/>
+        <image name="Socks On.JPG" width="640" height="480"/>
+        <image name="Strawberry.JPG" width="640" height="480"/>
+        <image name="Toothbrush.JPG" width="320" height="240"/>
+        <image name="Washing and Drying.JPG" width="320" height="240"/>
+        <image name="Water.JPG" width="640" height="480"/>
+        <image name="WiiMote.JPG" width="320" height="240"/>
+    </resources>
 </document>
