@@ -484,6 +484,7 @@
 				A80020911D32C75400F58CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80020921D32C75400F58CF8 /* Build configuration list for PBXNativeTarget "AutismScheduleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				A80020941D32C75400F58CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80020951D32C75400F58CF8 /* Build configuration list for PBXNativeTarget "AutismScheduleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				A80020971D32C75400F58CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
