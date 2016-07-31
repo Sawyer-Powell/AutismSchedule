@@ -3,13 +3,12 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutismSchedule" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="AutismSchedule" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,57 +17,117 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="unw-St-Q7c">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unw-St-Q7c">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfP-yF-dJW">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1601"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tfP-yF-dJW">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1y-Y8-fTi">
-                                                <rect key="frame" x="38" y="548" width="386" height="182"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5s-fQ-pY8">
+                                                <rect key="frame" x="550" y="27" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="Food.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRL-mh-uq0">
-                                                <rect key="frame" x="38" y="35" width="386" height="182"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRL-mh-uq0">
+                                                <rect key="frame" x="39" y="27" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="Academics.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqB-b2-uDE">
-                                                <rect key="frame" x="38" y="299" width="386" height="182"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpr-HN-G9c">
+                                                <rect key="frame" x="550" y="285" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="General.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVw-Ow-yKM">
+                                                <rect key="frame" x="39" y="535" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="GroupActivites.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw7-aJ-LDy">
+                                                <rect key="frame" x="550" y="535" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="PeerActivity.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBb-oV-9U5">
+                                                <rect key="frame" x="39" y="285" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="Chores.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwf-jE-Dcd">
+                                                <rect key="frame" x="39" y="27" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="Academics.png"/>
+                                                <connections>
+                                                    <action selector="btnAcademics:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dzb-7P-eUT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1601" id="629-Cl-ojC"/>
-                                            <constraint firstAttribute="width" constant="1024" id="UbV-VP-yVV"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="tfP-yF-dJW" firstAttribute="top" secondItem="unw-St-Q7c" secondAttribute="top" id="CNG-Ji-ql8"/>
-                                    <constraint firstAttribute="trailing" secondItem="tfP-yF-dJW" secondAttribute="trailing" id="Ib3-au-lQs"/>
-                                    <constraint firstItem="tfP-yF-dJW" firstAttribute="leading" secondItem="unw-St-Q7c" secondAttribute="leading" id="UDf-5Z-R8N"/>
-                                    <constraint firstAttribute="bottom" secondItem="tfP-yF-dJW" secondAttribute="bottom" id="cZi-FM-nm6"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="unw-St-Q7c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="62i-vy-A01"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="unw-St-Q7c" secondAttribute="bottom" id="K1m-WM-abD"/>
-                            <constraint firstItem="unw-St-Q7c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="KFa-gG-5Jf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="unw-St-Q7c" secondAttribute="trailing" constant="-20" id="NBi-AX-iWa"/>
-                        </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="MainView" destination="tfP-yF-dJW" id="spT-w6-aeN"/>
+                        <segue destination="f2A-IN-s4u" kind="show" id="P9K-zP-viz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="307" y="452"/>
         </scene>
+        <!--Academics-->
+        <scene sceneID="jsy-7q-9eZ">
+            <objects>
+                <viewController title="Academics" id="f2A-IN-s4u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pkh-OQ-5G3"/>
+                        <viewControllerLayoutGuide type="bottom" id="N9b-Ru-DDr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ebg-9d-ZWW">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QG5-WF-PjP">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4Y-aR-2lz">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6C4-XG-4Dp">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="BookRead.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbO-5c-GCy">
+                                                <rect key="frame" x="15" y="349" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Add.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shu-HZ-597">
+                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Math.JPG"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oxe-gu-jAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363" y="452"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Academics.png" width="772" height="364"/>
+        <image name="Add.png" width="976" height="656"/>
+        <image name="BookRead.JPG" width="640" height="480"/>
+        <image name="Chores.png" width="772" height="364"/>
+        <image name="Food.png" width="772" height="364"/>
+        <image name="General.png" width="772" height="364"/>
+        <image name="GroupActivites.png" width="772" height="364"/>
+        <image name="Math.JPG" width="320" height="240"/>
+        <image name="PeerActivity.png" width="772" height="364"/>
+    </resources>
 </document>

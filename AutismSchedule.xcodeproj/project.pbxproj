@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721F43F81D4E982E00F5B67B /* PeerActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43F21D4E982E00F5B67B /* PeerActivity.png */; };
+		721F43F91D4E982E00F5B67B /* Academics.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43F31D4E982E00F5B67B /* Academics.png */; };
+		721F43FA1D4E982E00F5B67B /* Food.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43F41D4E982E00F5B67B /* Food.png */; };
+		721F43FB1D4E982E00F5B67B /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43F51D4E982E00F5B67B /* General.png */; };
+		721F43FC1D4E982E00F5B67B /* Chores.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43F61D4E982E00F5B67B /* Chores.png */; };
+		721F43FD1D4E982E00F5B67B /* GroupActivites.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43F71D4E982E00F5B67B /* GroupActivites.png */; };
+		721F43FF1D4E9E8B00F5B67B /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F43FE1D4E9E8B00F5B67B /* Add.png */; };
+		721F44011D4E9F5700F5B67B /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 721F44001D4E9F5700F5B67B /* Back.png */; };
 		72F11DB81D32F0C50087DA50 /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 72F11DB71D32F0C50087DA50 /* Check.png */; };
 		A800206B1D32C75400F58CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A800206A1D32C75400F58CF8 /* AppDelegate.swift */; };
 		A800206D1D32C75400F58CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A800206C1D32C75400F58CF8 /* ViewController.swift */; };
@@ -55,6 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		721F43F21D4E982E00F5B67B /* PeerActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PeerActivity.png; sourceTree = "<group>"; };
+		721F43F31D4E982E00F5B67B /* Academics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Academics.png; sourceTree = "<group>"; };
+		721F43F41D4E982E00F5B67B /* Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Food.png; sourceTree = "<group>"; };
+		721F43F51D4E982E00F5B67B /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = General.png; sourceTree = "<group>"; };
+		721F43F61D4E982E00F5B67B /* Chores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chores.png; sourceTree = "<group>"; };
+		721F43F71D4E982E00F5B67B /* GroupActivites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroupActivites.png; sourceTree = "<group>"; };
+		721F43FE1D4E9E8B00F5B67B /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		721F44001D4E9F5700F5B67B /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
 		72F11DB71D32F0C50087DA50 /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Check.png; path = ../../Downloads/Check.png; sourceTree = "<group>"; };
 		A80020671D32C75400F58CF8 /* AutismSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutismSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A800206A1D32C75400F58CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +135,14 @@
 		A800205E1D32C75400F58CF8 = {
 			isa = PBXGroup;
 			children = (
+				721F44001D4E9F5700F5B67B /* Back.png */,
+				721F43FE1D4E9E8B00F5B67B /* Add.png */,
+				721F43F21D4E982E00F5B67B /* PeerActivity.png */,
+				721F43F31D4E982E00F5B67B /* Academics.png */,
+				721F43F41D4E982E00F5B67B /* Food.png */,
+				721F43F51D4E982E00F5B67B /* General.png */,
+				721F43F61D4E982E00F5B67B /* Chores.png */,
+				721F43F71D4E982E00F5B67B /* GroupActivites.png */,
 				A8A64BB31D32E1D500C7A4CD /*  Computer.JPG */,
 				A8A64BB41D32E1D500C7A4CD /* Banana.JPG */,
 				A8A64BB51D32E1D500C7A4CD /* Basketball.JPG */,
@@ -292,14 +316,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721F43FA1D4E982E00F5B67B /* Food.png in Resources */,
 				A8A64BCC1D32E1D500C7A4CD /* Brush.JPG in Resources */,
 				A8A64BC91D32E1D500C7A4CD /* Basketball.JPG in Resources */,
+				721F43FC1D4E982E00F5B67B /* Chores.png in Resources */,
 				A8A64BCA1D32E1D500C7A4CD /* BookRead.JPG in Resources */,
 				A8A64BD91D32E1D500C7A4CD /* Water.JPG in Resources */,
+				721F43FD1D4E982E00F5B67B /* GroupActivites.png in Resources */,
 				A80020751D32C75400F58CF8 /* LaunchScreen.storyboard in Resources */,
 				A8A64BCE1D32E1D500C7A4CD /* Cleaning.JPG in Resources */,
 				A80020721D32C75400F58CF8 /* Assets.xcassets in Resources */,
 				A8A64BC81D32E1D500C7A4CD /* Banana.JPG in Resources */,
+				721F43F91D4E982E00F5B67B /* Academics.png in Resources */,
+				721F44011D4E9F5700F5B67B /* Back.png in Resources */,
+				721F43F81D4E982E00F5B67B /* PeerActivity.png in Resources */,
 				A8A64BD71D32E1D500C7A4CD /* Toothbrush.JPG in Resources */,
 				A8A64BD31D32E1D500C7A4CD /* Puzzles.JPG in Resources */,
 				72F11DB81D32F0C50087DA50 /* Check.png in Resources */,
@@ -309,12 +339,14 @@
 				A8A64BDA1D32E1D500C7A4CD /* WiiMote.JPG in Resources */,
 				A80020701D32C75400F58CF8 /* Main.storyboard in Resources */,
 				A8A64BD41D32E1D500C7A4CD /* Shoes On.JPG in Resources */,
+				721F43FB1D4E982E00F5B67B /* General.png in Resources */,
 				A8A64BCD1D32E1D500C7A4CD /* Checkers.JPG in Resources */,
 				A8A64BCF1D32E1D500C7A4CD /* HandWash.JPG in Resources */,
 				A8A64BD21D32E1D500C7A4CD /* Plate.JPG in Resources */,
 				A8A64BD81D32E1D500C7A4CD /* Washing and Drying.JPG in Resources */,
 				A8A64BCB1D32E1D500C7A4CD /* Bread.JPG in Resources */,
 				A8A64BD61D32E1D500C7A4CD /* Strawberry.JPG in Resources */,
+				721F43FF1D4E9E8B00F5B67B /* Add.png in Resources */,
 				A8A64BC71D32E1D500C7A4CD /*  Computer.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
