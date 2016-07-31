@@ -24,17 +24,205 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfP-yF-dJW">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1601"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1y-Y8-fTi">
-                                                <rect key="frame" x="38" y="548" width="386" height="182"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUm-g2-43h">
+                                                <rect key="frame" x="0.0" y="1135" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Strawberry" image="Strawberry.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Strawberry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="im0-qf-9gx"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRL-mh-uq0">
-                                                <rect key="frame" x="38" y="35" width="386" height="182"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vad-sa-FnR">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Computer" image=" Computer.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Computer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7NR-yr-hja"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqB-b2-uDE">
-                                                <rect key="frame" x="38" y="299" width="386" height="182"/>
-                                                <state key="normal" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUc-WU-Po1">
+                                                <rect key="frame" x="689" y="908" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Socks On" image="Socks On.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_socksOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NEs-YG-52V"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obI-4i-Gqw">
+                                                <rect key="frame" x="345" y="454" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Cleaning" image="Cleaning.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Cleaning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fzv-ii-SL3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cQ-Sb-WWl">
+                                                <rect key="frame" x="345" y="1362" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="WiiMote" image="WiiMote.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_WiiMote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iXS-Jh-WHF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSa-iN-rD0">
+                                                <rect key="frame" x="0.0" y="1362" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Water" image="Water.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Water:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vIr-c9-WwH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Wc-jZ-0qo">
+                                                <rect key="frame" x="689" y="1135" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Washing and Drying" image="Washing and Drying.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_WashingDrying:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fwu-79-RHG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0E-Ef-Pdw">
+                                                <rect key="frame" x="345" y="1135" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Toothbrush" image="Toothbrush.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Toothbrush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z6F-MK-dEJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC8-s3-z9K">
+                                                <rect key="frame" x="345" y="908" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Shoes On" image="Shoes On.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_ShoesOn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qJ1-54-0sm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go3-em-6NH">
+                                                <rect key="frame" x="689" y="681" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Plate" image="Plate.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Plate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RpY-6L-hLy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xis-YR-Q4D">
+                                                <rect key="frame" x="345" y="681" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Orange" image="Orange.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Orange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sZe-eY-mVO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJm-Pd-vlS">
+                                                <rect key="frame" x="0.0" y="681" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Math" image="Math.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Math:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gg-Q1-yQ8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xi6-C3-eVu">
+                                                <rect key="frame" x="689" y="227" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Brush" image="Brush.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Brush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d4u-AI-WP9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQW-AZ-Feg">
+                                                <rect key="frame" x="689" y="454" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="HandWash.JPG" image="HandWash.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_HandWash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X73-4R-oMq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tr-iB-4o6">
+                                                <rect key="frame" x="345" y="227" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Bread" image="Bread.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Bread:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zel-iY-g9z"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRA-og-DuL">
+                                                <rect key="frame" x="0.0" y="454" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Checkers" image="Checkers.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Checkers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVi-K6-BCb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huT-RB-P2F">
+                                                <rect key="frame" x="0.0" y="227" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="BookRead" image="BookRead.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_BookRead:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gje-W4-zHZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfh-Mn-KTa">
+                                                <rect key="frame" x="345" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Eat Fruit" image="Banana.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Banana:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qNO-xM-UVp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVP-3X-u5d">
+                                                <rect key="frame" x="689" y="0.0" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Basketball" image="Basketball.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Basketball:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PBa-ZL-fb7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syU-yA-A70">
+                                                <rect key="frame" x="0.0" y="908" width="335" height="219"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" title="Shoes On" image="Puzzles.JPG">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btn_Puzzles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OuV-hz-XWW"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,7 +251,27 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="Banana" destination="Hfh-Mn-KTa" id="QZA-n6-2e4"/>
+                        <outlet property="Basketball" destination="FVP-3X-u5d" id="MsP-9Q-8gt"/>
+                        <outlet property="BookRead" destination="huT-RB-P2F" id="Prv-62-ABe"/>
+                        <outlet property="Bread" destination="9tr-iB-4o6" id="wT0-Te-fsM"/>
+                        <outlet property="Brush" destination="xi6-C3-eVu" id="i0o-7d-tN9"/>
+                        <outlet property="Checkers" destination="tRA-og-DuL" id="V6B-pe-TBb"/>
+                        <outlet property="Cleaning" destination="obI-4i-Gqw" id="8g1-dj-Wqe"/>
+                        <outlet property="Computer" destination="vad-sa-FnR" id="HTz-ai-N0w"/>
+                        <outlet property="HandWash" destination="OQW-AZ-Feg" id="iSL-GW-6dU"/>
                         <outlet property="MainView" destination="tfP-yF-dJW" id="spT-w6-aeN"/>
+                        <outlet property="Math" destination="aJm-Pd-vlS" id="vYb-Wx-r3K"/>
+                        <outlet property="Orange" destination="xis-YR-Q4D" id="AcI-o5-bTj"/>
+                        <outlet property="Plate" destination="Go3-em-6NH" id="hdy-3f-Rb5"/>
+                        <outlet property="Puzzles" destination="syU-yA-A70" id="vKu-wk-NIk"/>
+                        <outlet property="ShoesOn" destination="aC8-s3-z9K" id="h7j-6G-Agx"/>
+                        <outlet property="Strawberry" destination="mUm-g2-43h" id="klL-ED-QXr"/>
+                        <outlet property="Toothbrush" destination="H0E-Ef-Pdw" id="9rn-sW-OfC"/>
+                        <outlet property="WashingDrying" destination="2Wc-jZ-0qo" id="8Li-ee-Ctg"/>
+                        <outlet property="Water" destination="VSa-iN-rD0" id="giY-tg-xer"/>
+                        <outlet property="WiiMote" destination="6cQ-Sb-WWl" id="6p9-dW-j1O"/>
+                        <outlet property="socksOn" destination="uUc-WU-Po1" id="Uii-QD-Hm6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -71,4 +279,26 @@
             <point key="canvasLocation" x="307" y="452"/>
         </scene>
     </scenes>
+    <resources>
+        <image name=" Computer.JPG" width="640" height="480"/>
+        <image name="Banana.JPG" width="640" height="480"/>
+        <image name="Basketball.JPG" width="640" height="480"/>
+        <image name="BookRead.JPG" width="640" height="480"/>
+        <image name="Bread.JPG" width="640" height="480"/>
+        <image name="Brush.JPG" width="640" height="480"/>
+        <image name="Checkers.JPG" width="320" height="240"/>
+        <image name="Cleaning.JPG" width="320" height="240"/>
+        <image name="HandWash.JPG" width="640" height="480"/>
+        <image name="Math.JPG" width="320" height="240"/>
+        <image name="Orange.JPG" width="640" height="480"/>
+        <image name="Plate.JPG" width="640" height="480"/>
+        <image name="Puzzles.JPG" width="640" height="480"/>
+        <image name="Shoes On.JPG" width="640" height="480"/>
+        <image name="Socks On.JPG" width="640" height="480"/>
+        <image name="Strawberry.JPG" width="640" height="480"/>
+        <image name="Toothbrush.JPG" width="320" height="240"/>
+        <image name="Washing and Drying.JPG" width="320" height="240"/>
+        <image name="Water.JPG" width="640" height="480"/>
+        <image name="WiiMote.JPG" width="320" height="240"/>
+    </resources>
 </document>
