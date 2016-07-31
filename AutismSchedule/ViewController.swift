@@ -35,9 +35,10 @@ class ViewController: UIViewController {
         
     ]
     var arr_Schedule: [String] = [""]
+    var selected = -1
     
     @IBOutlet weak var MainView: UIView!
-    
+
     func selected(button: UIButton){
         let x = button.center.x
         let y = button.center.y
