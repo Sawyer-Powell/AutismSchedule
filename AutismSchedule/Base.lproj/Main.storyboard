@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main-->
@@ -26,6 +27,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5s-fQ-pY8">
                                                 <rect key="frame" x="550" y="27" width="436" height="191"/>
                                                 <state key="normal" title="Button" image="Food.png"/>
+                                                <connections>
+                                                    <segue destination="S19-F4-0kv" kind="show" animates="NO" id="qcD-wh-tl4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRL-mh-uq0">
                                                 <rect key="frame" x="39" y="27" width="436" height="191"/>
@@ -46,12 +50,15 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBb-oV-9U5">
                                                 <rect key="frame" x="39" y="285" width="436" height="191"/>
                                                 <state key="normal" title="Button" image="Chores.png"/>
+                                                <connections>
+                                                    <segue destination="TkH-xi-M6A" kind="show" animates="NO" id="bhN-LH-WdA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwf-jE-Dcd">
                                                 <rect key="frame" x="39" y="27" width="436" height="191"/>
                                                 <state key="normal" title="Button" image="Academics.png"/>
                                                 <connections>
-                                                    <action selector="btnAcademics:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dzb-7P-eUT"/>
+                                                    <segue destination="f2A-IN-s4u" kind="show" animates="NO" id="hEc-IA-2WO"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -66,12 +73,187 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="MainView" destination="tfP-yF-dJW" id="spT-w6-aeN"/>
-                        <segue destination="f2A-IN-s4u" kind="show" id="P9K-zP-viz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="307" y="452"/>
+        </scene>
+        <!--Food-->
+        <scene sceneID="vMx-pZ-m91">
+            <objects>
+                <viewController title="Food" id="S19-F4-0kv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sWv-GH-8pD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Olh-EB-Kba"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FhN-ZA-N3W">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNE-oZ-pZm">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZK-Zg-rvA">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1368"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OW8-tO-8DB">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Banana.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2T-RY-lCS">
+                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Bread.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raf-Ep-4uH">
+                                                <rect key="frame" x="15" y="331" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Orange.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e3-Cz-jLh">
+                                                <rect key="frame" x="15" y="655" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Strawberry.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsN-MF-Z8e">
+                                                <rect key="frame" x="511" y="331" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Plate.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkP-W1-qmm">
+                                                <rect key="frame" x="511" y="655" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Water.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3l-bf-j6d">
+                                                <rect key="frame" x="15" y="978" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Add.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cv6-vv-n3e">
+                                                <rect key="frame" x="638" y="1302" width="234" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Go to Schedule">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChR-NN-g5c">
+                                                <rect key="frame" x="225" y="1302" width="69" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="nj4-ei-aH0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1024" id="2lY-3L-tDt"/>
+                                            <constraint firstAttribute="height" constant="1368" id="8sh-nG-blB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GZK-Zg-rvA" firstAttribute="leading" secondItem="oNE-oZ-pZm" secondAttribute="leading" id="gd7-h8-DdG"/>
+                                    <constraint firstItem="GZK-Zg-rvA" firstAttribute="top" secondItem="oNE-oZ-pZm" secondAttribute="top" id="hC8-gr-XjJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="GZK-Zg-rvA" secondAttribute="trailing" id="hEM-l7-Kw7"/>
+                                    <constraint firstAttribute="bottom" secondItem="GZK-Zg-rvA" secondAttribute="bottom" id="vxo-EW-ZUi"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Olh-EB-Kba" firstAttribute="top" secondItem="oNE-oZ-pZm" secondAttribute="bottom" id="9dw-DJ-lk5"/>
+                            <constraint firstItem="oNE-oZ-pZm" firstAttribute="leading" secondItem="FhN-ZA-N3W" secondAttribute="leadingMargin" constant="-20" id="Bb4-es-sup"/>
+                            <constraint firstItem="oNE-oZ-pZm" firstAttribute="top" secondItem="FhN-ZA-N3W" secondAttribute="topMargin" id="F56-81-CsC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oNE-oZ-pZm" secondAttribute="trailing" constant="-20" id="tB1-Zy-QEZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gp9-iC-Eda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2525" y="-383"/>
+        </scene>
+        <!--Chores-->
+        <scene sceneID="6rx-bg-N9Q">
+            <objects>
+                <viewController title="Chores" id="TkH-xi-M6A" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B2v-Fs-W3Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="TcU-Oi-red"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1ic-cW-6jh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHf-Y5-jOd">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcU-cj-4jm">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y7e-eM-I3w">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Cleaning.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIM-Ht-lp0">
+                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Washing and Drying.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dl-qO-k44">
+                                                <rect key="frame" x="15" y="334" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Add.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N26-HX-Y3Y">
+                                                <rect key="frame" x="638" y="658" width="234" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Go to Schedule">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcE-dw-WU7">
+                                                <rect key="frame" x="225" y="658" width="69" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="lar-6m-0sa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Huc-bV-CtL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1455" y="452"/>
+        </scene>
+        <!--General-->
+        <scene sceneID="UGP-h7-V1C">
+            <objects>
+                <viewController title="General" id="9bN-ez-1Bt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TTX-eI-lEC"/>
+                        <viewControllerLayoutGuide type="bottom" id="raQ-bp-2lA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GjP-06-p6O">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzg-nl-G8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2525" y="452"/>
         </scene>
         <!--Academics-->
         <scene sceneID="jsy-7q-9eZ">
@@ -91,17 +273,34 @@
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4Y-aR-2lz">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6C4-XG-4Dp">
-                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
-                                                <state key="normal" backgroundImage="BookRead.JPG"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shu-HZ-597">
+                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Math.JPG"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbO-5c-GCy">
                                                 <rect key="frame" x="15" y="349" width="488" height="316"/>
                                                 <state key="normal" backgroundImage="Add.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shu-HZ-597">
-                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
-                                                <state key="normal" backgroundImage="Math.JPG"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6C4-XG-4Dp">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="BookRead.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dh5-Ms-y7E">
+                                                <rect key="frame" x="638" y="691" width="234" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Go to Schedule">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vu4-GT-ceO">
+                                                <rect key="frame" x="226" y="691" width="66" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="fay-QG-wTF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -111,23 +310,35 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1hl-eu-fBR"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxe-gu-jAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1363" y="452"/>
+            <point key="canvasLocation" x="1455" y="-383"/>
         </scene>
     </scenes>
     <resources>
         <image name="Academics.png" width="772" height="364"/>
         <image name="Add.png" width="976" height="656"/>
+        <image name="Banana.JPG" width="640" height="480"/>
         <image name="BookRead.JPG" width="640" height="480"/>
+        <image name="Bread.JPG" width="640" height="480"/>
         <image name="Chores.png" width="772" height="364"/>
+        <image name="Cleaning.JPG" width="320" height="240"/>
         <image name="Food.png" width="772" height="364"/>
         <image name="General.png" width="772" height="364"/>
         <image name="GroupActivites.png" width="772" height="364"/>
         <image name="Math.JPG" width="320" height="240"/>
+        <image name="Orange.JPG" width="640" height="480"/>
         <image name="PeerActivity.png" width="772" height="364"/>
+        <image name="Plate.JPG" width="640" height="480"/>
+        <image name="Strawberry.JPG" width="640" height="480"/>
+        <image name="Washing and Drying.JPG" width="320" height="240"/>
+        <image name="Water.JPG" width="640" height="480"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="lar-6m-0sa"/>
+    </inferredMetricsTieBreakers>
 </document>

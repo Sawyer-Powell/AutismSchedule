@@ -48,10 +48,7 @@ class ViewController: UIViewController {
         MainView.addSubview(imageView)
     }
     
-    
-    @IBAction func btnAcademics(sender: UIButton) {
-        performSegueWithIdentifier("SegueToAcademics", sender: self)
-    }
+
 
 
 }
