@@ -36,9 +36,9 @@ class ViewController: UIViewController {
     ]
     var arr_Schedule: [String] = [""]
     
-    @IBOutlet weak var MainView: UIView!
+    @IBOutlet weak var MainView: UIView!q
     
-    func selected(button: UIButton){
+    public func selected(button: UIButton){
         let x = button.center.x
         let y = button.center.y
         let selectedImage = "Check.png"
@@ -47,9 +47,8 @@ class ViewController: UIViewController {
         imageView.frame = CGRect(x: x - 110, y: y - 110, width: 219, height: 219)
         MainView.addSubview(imageView)
     }
-    
-
-
-
 }
+
+
+
 
