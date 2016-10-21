@@ -6,6 +6,67 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Peer Activity-->
+        <scene sceneID="HMo-LD-pPy">
+            <objects>
+                <viewController title="Peer Activity" id="MH3-af-KXU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fst-9q-Tl1"/>
+                        <viewControllerLayoutGuide type="bottom" id="nlP-vJ-pE1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jqf-FU-zFa">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z0U-9F-Ox7">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="98S-2v-1gW">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Es7-7W-pD3">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Add.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgM-ip-RGc">
+                                                <rect key="frame" x="225" y="714" width="69" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QS-mS-kEN">
+                                                <rect key="frame" x="654" y="714" width="234" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Go to Schedule">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1368" id="OCd-oF-M5M"/>
+                                            <constraint firstAttribute="width" constant="1024" id="pXc-x6-dCZ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="98S-2v-1gW" secondAttribute="bottom" id="89w-Xt-8Lw"/>
+                                    <constraint firstItem="98S-2v-1gW" firstAttribute="top" secondItem="z0U-9F-Ox7" secondAttribute="top" id="QU6-6z-ZRq"/>
+                                    <constraint firstItem="98S-2v-1gW" firstAttribute="leading" secondItem="z0U-9F-Ox7" secondAttribute="leading" id="a4Y-J9-dk0"/>
+                                    <constraint firstAttribute="trailing" secondItem="98S-2v-1gW" secondAttribute="trailing" id="dZW-NM-FCj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZS-4g-fPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-799" y="1223"/>
+        </scene>
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -35,13 +96,12 @@
                                                 <rect key="frame" x="39" y="27" width="436" height="191"/>
                                                 <state key="normal" title="Button" image="Academics.png"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpr-HN-G9c">
-                                                <rect key="frame" x="550" y="285" width="436" height="191"/>
-                                                <state key="normal" title="Button" image="General.png"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVw-Ow-yKM">
                                                 <rect key="frame" x="39" y="535" width="436" height="191"/>
                                                 <state key="normal" title="Button" image="GroupActivites.png"/>
+                                                <connections>
+                                                    <segue destination="Hnc-pe-n5J" kind="show" id="3dw-1Y-c00"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw7-aJ-LDy">
                                                 <rect key="frame" x="550" y="535" width="436" height="191"/>
@@ -61,6 +121,13 @@
                                                     <segue destination="f2A-IN-s4u" kind="show" animates="NO" id="hEc-IA-2WO"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpr-HN-G9c">
+                                                <rect key="frame" x="550" y="285" width="436" height="191"/>
+                                                <state key="normal" title="Button" image="General.png"/>
+                                                <connections>
+                                                    <segue destination="9bN-ez-1Bt" kind="show" id="obj-Jr-MAZ"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
@@ -77,7 +144,79 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="307" y="452"/>
+            <point key="canvasLocation" x="245" y="408"/>
+        </scene>
+        <!--Group Activities-->
+        <scene sceneID="epY-GT-Qk3">
+            <objects>
+                <viewController title="Group Activities" id="Hnc-pe-n5J" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DKP-dY-cva"/>
+                        <viewControllerLayoutGuide type="bottom" id="bJO-Io-8hg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DTv-CW-kaP">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dvc-hC-1hx">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p56-8g-PuK">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OP-xZ-gJa">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Basketball.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDK-rF-Zm6">
+                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="WiiMote.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohB-6w-mql">
+                                                <rect key="frame" x="15" y="334" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Add.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIE-Qg-2eF">
+                                                <rect key="frame" x="638" y="714" width="234" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Go to Schedule">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2f-NA-ria">
+                                                <rect key="frame" x="225" y="714" width="69" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="r8V-1x-geS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1368" id="RJa-dG-qbB"/>
+                                            <constraint firstAttribute="width" constant="1024" id="YQG-kv-BRc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="p56-8g-PuK" firstAttribute="leading" secondItem="dvc-hC-1hx" secondAttribute="leading" id="BJj-SD-SCE"/>
+                                    <constraint firstAttribute="bottom" secondItem="p56-8g-PuK" secondAttribute="bottom" id="DwC-LR-5NE"/>
+                                    <constraint firstItem="p56-8g-PuK" firstAttribute="top" secondItem="dvc-hC-1hx" secondAttribute="top" id="TYv-so-2ef"/>
+                                    <constraint firstAttribute="trailing" secondItem="p56-8g-PuK" secondAttribute="trailing" id="fF4-2k-nMB"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1nS-ew-nnH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1223"/>
         </scene>
         <!--Food-->
         <scene sceneID="vMx-pZ-m91">
@@ -160,8 +299,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Olh-EB-Kba" firstAttribute="top" secondItem="oNE-oZ-pZm" secondAttribute="bottom" id="9dw-DJ-lk5"/>
                             <constraint firstItem="oNE-oZ-pZm" firstAttribute="leading" secondItem="FhN-ZA-N3W" secondAttribute="leadingMargin" constant="-20" id="Bb4-es-sup"/>
+                            <constraint firstItem="Olh-EB-Kba" firstAttribute="top" secondItem="oNE-oZ-pZm" secondAttribute="bottom" id="EEU-Be-8xg"/>
                             <constraint firstItem="oNE-oZ-pZm" firstAttribute="top" secondItem="FhN-ZA-N3W" secondAttribute="topMargin" id="F56-81-CsC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oNE-oZ-pZm" secondAttribute="trailing" constant="-20" id="tB1-Zy-QEZ"/>
                         </constraints>
@@ -171,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gp9-iC-Eda" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2525" y="-383"/>
+            <point key="canvasLocation" x="1289" y="408"/>
         </scene>
         <!--Chores-->
         <scene sceneID="6rx-bg-N9Q">
@@ -233,7 +372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Huc-bV-CtL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="452"/>
+            <point key="canvasLocation" x="1289" y="-418"/>
         </scene>
         <!--General-->
         <scene sceneID="UGP-h7-V1C">
@@ -246,6 +385,58 @@
                     <view key="view" contentMode="scaleToFill" id="GjP-06-p6O">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nE6-Mr-MfL">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0KQ-b8-ngc">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXd-0T-iWW">
+                                                <rect key="frame" x="15" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Shoes On.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3T-fh-8LM">
+                                                <rect key="frame" x="511" y="8" width="488" height="318"/>
+                                                <state key="normal" backgroundImage="Socks On.JPG"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOM-HR-rFM">
+                                                <rect key="frame" x="225" y="658" width="69" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="show" id="4sT-a4-JbA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnC-Tt-p7M">
+                                                <rect key="frame" x="15" y="334" width="488" height="316"/>
+                                                <state key="normal" backgroundImage="Add.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtc-Zr-ahe">
+                                                <rect key="frame" x="638" y="658" width="234" height="46"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                <state key="normal" title="Go to Schedule">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1024" id="1O9-gp-x2g"/>
+                                            <constraint firstAttribute="height" constant="1368" id="7ez-G4-fJc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0KQ-b8-ngc" secondAttribute="bottom" id="Jya-TC-fsZ"/>
+                                    <constraint firstItem="0KQ-b8-ngc" firstAttribute="top" secondItem="nE6-Mr-MfL" secondAttribute="top" id="KQ2-oA-iLJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="0KQ-b8-ngc" secondAttribute="trailing" id="bbc-T9-cfR"/>
+                                    <constraint firstItem="0KQ-b8-ngc" firstAttribute="leading" secondItem="nE6-Mr-MfL" secondAttribute="leading" id="fII-HN-H4V"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -253,7 +444,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzg-nl-G8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2525" y="452"/>
+            <point key="canvasLocation" x="1289" y="1223"/>
         </scene>
         <!--Academics-->
         <scene sceneID="jsy-7q-9eZ">
@@ -316,13 +507,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxe-gu-jAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1455" y="-383"/>
+            <point key="canvasLocation" x="245" y="-418"/>
         </scene>
     </scenes>
     <resources>
         <image name="Academics.png" width="772" height="364"/>
         <image name="Add.png" width="976" height="656"/>
         <image name="Banana.JPG" width="640" height="480"/>
+        <image name="Basketball.JPG" width="640" height="480"/>
         <image name="BookRead.JPG" width="640" height="480"/>
         <image name="Bread.JPG" width="640" height="480"/>
         <image name="Chores.png" width="772" height="364"/>
@@ -334,11 +526,14 @@
         <image name="Orange.JPG" width="640" height="480"/>
         <image name="PeerActivity.png" width="772" height="364"/>
         <image name="Plate.JPG" width="640" height="480"/>
+        <image name="Shoes On.JPG" width="640" height="480"/>
+        <image name="Socks On.JPG" width="640" height="480"/>
         <image name="Strawberry.JPG" width="640" height="480"/>
         <image name="Washing and Drying.JPG" width="320" height="240"/>
         <image name="Water.JPG" width="640" height="480"/>
+        <image name="WiiMote.JPG" width="320" height="240"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fay-QG-wTF"/>
+        <segue reference="r8V-1x-geS"/>
     </inferredMetricsTieBreakers>
 </document>
